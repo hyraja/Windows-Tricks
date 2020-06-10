@@ -1,1 +1,18 @@
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+
+
+
+step 1. create a empty text file in windows os .
+
+step2. then paste this code inside created file i.e  GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+
+step3. then create another folder in windows os and rename as GodMode.{ED7BA470-8E54-465E-825C-99712043E01C} then hit enter.
+
+step4. one shortcut is generated and inside that all the settings of windows available.
+
+step5. this shortcut file is called GodMode of windows.
+
+
+
+
+------------- enjoy GODMODE activated ---------------
