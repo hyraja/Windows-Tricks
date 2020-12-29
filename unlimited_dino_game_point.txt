@@ -1,0 +1,11 @@
+Unlimited point in Dino game in chrome in a single line of code
+---------------------------------------------------------------
+
+. first we open dino game on chrome by using chrome browser ==>> search chrome://dino/
+. then play the game using your space bar.
+. resume game then hit right click ==>inspect ==>console
+. then write a single line of code as shown below
+Runner.instance_.gameOver = () => {}then click enter and play the game
+you will got unlimited point.
+
+
