@@ -1,0 +1,71 @@
+
+------------------------------------------------------------------
+1. change the colour of the command prompt:
+------------------------------------------------------------------
+
+   # help color
+   # color 2   ---> for green colour and you can find more colour there.
+
+------------------------------------------------------------------
+2. change the promt name on cmd
+------------------------------------------------------------------
+ 
+   # help prompt   ----> then enter
+   # prompt Raj@Hacker$G  ---> change the prompt name
+
+------------------------------------------------------------------
+3. change cmd title 
+------------------------------------------------------------------
+
+   # title Hacking  --->u can set anyname instead of hacking.
+
+------------------------------------------------------------------
+4. see the full star wars movie on command prompt
+------------------------------------------------------------------
+
+   # open search and type "turn windows features on or off"
+   # turn on the telnet 
+   # telnet towel.blinkenlights.nl
+
+-----------------------------------------------------------------
+5. hide and unhide the folder through command prompt
+-----------------------------------------------------------------
+
+   # create one folder as raj  --> u can create with any name
+   # open cmd in the folder's location.
+   # attrib +h +s +r raj   then refresh "folder hides there"
+   # attrib -h -s -r raj   then refres  "folder unhide there"
+
+-----------------------------------------------------------------
+6. copy any command's o/p to the clipboard.
+-----------------------------------------------------------------
+
+   # ipconfig  ---> want to copy o/p of ipconfig to a file(u can use any command)
+   # ipconfig | clip    ---> open notepad++ and ctrl+v then u able to see the o/p.
+
+-----------------------------------------------------------------
+7. check commands history
+-----------------------------------------------------------------
+
+   # go to already open command promt
+   # click f7 key and can see the history
+   # or click fn + f7
+
+----------------------------------------------------------------
+8. create con , aux folder in windows(basically not allowed)
+----------------------------------------------------------------
+
+   # open cmd
+   # md con\   ----> create con folder or aux folder
+   # rd /s \\?\”C:\Users\%username%\Desktop\con” delete con or aux folder
+
+----------------------------------------------------------------
+9. to know installed applications through command prompt
+----------------------------------------------------------------
+
+   # wmic product get name  ---> it takes little time and then it shows all application installed on system.
+
+--------------------------------------------------------------------------------------------------------------
+                                                     END
+   
+
