@@ -1,0 +1,43 @@
+
+
+show a window notification while battery fully charged.
+-------------------------------------------------------
+
+1. Go to notepad and create one file as BatteryFull.txt
+
+2. Then add below code there as written inside this file.
+
+
+set oLocator = CreateObject("WbemScripting.SWbemLocator")
+set oServices = oLocator.ConnectServer(".","root\wmi")
+set oResults = oServices.ExecQuery("select * from batteryfullchargedcapacity")
+for each oResult in oResults
+   iFull = oResult.FullChargedCapacity
+next
+
+while (1)
+  set oResults = oServices.ExecQuery("select * from batterystatus")
+  for each oResult in oResults
+    iRemaining = oResult.RemainingCapacity
+    bCharging = oResult.Charging
+  next
+  iPercent = ((iRemaining / iFull) * 100) mod 100
+  if bCharging and (iPercent > 98) Then msgbox "Battery is fully charged"
+  wscript.sleep 30000 ' 5 minutes
+wend
+
+
+3. Then save as this file as Batteryfull.vbs  ---> make sure filele extension is .vbs important.
+
+4. Then double click on this file it will run and give notification when battery reached to 98%.
+
+   but for every time running it is haptic so we need to placed this fie in startup of windows.
+
+5. Click on window+r and one search bar is show up there , write shell:startup and hit enter then cut battryfull.vbs file and paste it on startup.
+
+6. then restart ur PC and you good to go.
+
+
+
+
+---------------------------------------- Thank you ---------------------------------------------------------
