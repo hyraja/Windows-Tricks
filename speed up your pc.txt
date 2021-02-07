@@ -1,0 +1,91 @@
+How to speed up your pc.....
+-------------------------------------------------------------------------------------
+
+step 1 :
+--------
+  1. go to battery indicator on the task bar and set power mode to the best perfomace(maximum).
+  2. Then go to the serach and type "power settings"
+  3. power settings ---> Additional power settings --> create a power plan ---> choose high perfomance --> next --> create 
+  4. its automatically choose my custom plan with high perfomance mode.
+
+
+step 2 :
+--------
+   
+  Disabling startup apps
+  ----------------------
+
+  1. open Task manager (Alt+ctrl+del-->Task manager)
+  2. Choose Startup
+  3. keep disabling which apps in not necessary to open on startup.
+
+step 3 :
+--------
+
+   Uninstall unwanted application
+   ------------------------------
+   1. go to search bar
+   2. type "add or remove programs"
+   3. then you can uninstall the programme which u want to be.
+
+step 4 :
+--------
+
+   Defragment of disk
+   ------------------
+    
+   1. open search bar --> Defragment and optimize drives --> optimize(u can optimize ur both drives)
+   2. or open CMD --> defrag D: /u
+   3. or open CMD --> defrag C: /u
+   4. or go to this pc --> choose drive --> right click and go to properties --> tools --> optimize
+
+step 5 :
+--------
+
+   Disk cleanup
+   ------------
+
+   1. go to this pc --> choose drive --> disk clean up[it takes some time but as a result shows the all files which u can delete]
+
+step 6 :
+--------
+
+   Clean up temporary files
+   ------------------------
+
+   1. Hit (windows+r) --> type temp on search bar --> continue --> (ctrl+a) then delete all <--- temp file of windows
+   2. Hit(windows + r)--> type %temp% on search bar then enter ---> (ctrl + a) then delete all <-- temporary file for user
+
+
+step 7 :
+-------
+
+   Clean up the recycle bin
+   ------------------------
+
+   1. right click on re cycle bin and then hit on empty re cycle bin.
+
+
+     ------------------------------------------------------------ End -----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
