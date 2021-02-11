@@ -1,0 +1,40 @@
+
+
+Remove unused right click context menu on windows system
+--------------------------------------------------------
+
+1. open run [windows + r] then type regedit  then --> enter --> yes
+
+
+2. then you move to the context menu,different context menu given  below for file , folder and desktop
+go there and click on the software folder u want to disable then ---> right click default --> modify -->  do value data blank or put a - on value data 
+
+For files :
+----------- 
+HKEY_CLASSES_ROOT\*\shellex\ContextMenauHandlers\
+
+HKEY_CLASSES_ROOT\*\shell
+
+HKEY_CLASSES_ROOT\AllfileSystemObjects\shellEx\ContextMenuHandlers
+
+For Folder :
+-----------
+HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\
+
+HKEY_CLASSES_ROOT\Directory\shell
+
+For Desktop:
+------------
+HKEY_CLASSES_ROOT\Directory\Background\shell
+
+HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers
+
+
+
+----------------------------------------------------------- follow the document thoroughly ------------------------------------
+
+
+
+
+
+----------------------------------------------------------------- End ----------------------------------------------------------
