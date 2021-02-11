@@ -1,0 +1,35 @@
+
+How to make folder in accessible(access block) in windows using CMD.
+--------------------------------------------------------------------
+
+To check its working or not , i make a folder "New folder" in D drive.
+
+1. open cmd by [windows + r] then type cmd 
+2. go to D drive  by typing on cmd  i.e d: 
+3. Type this on cmd:  cacls "New folder" /p everyone:n   then Y
+4. cacls means -->  create access control list
+5. open your folder u can't accesible the folder
+
+
+How to make a file inaccessible
+-------------------------------
+
+To check this i create a file r.txt on d drive
+
+1. open cmd by [windows + r] then type cmd 
+2. go to D drive  by typing on cmd  i.e d:
+3. Type this on cmd:  cacls "r.txt" /p everyone:n   then Y
+4. then open your file u can't 
+
+How to make it accessible
+-------------------------
+
+to make accessibe above folder and file follow below process
+
+1. open cmd by [windows + r] then type cmd 
+2. go to D drive  by typing on cmd  i.e d:
+3. type on cmd : cacls "r.txt" /p everyone:f   then Y
+4. type on cmd : cacls "r.txt" /p everyone:f   then Y
+
+
+-------------------------------------------------------- End ---------------------------------------------------
