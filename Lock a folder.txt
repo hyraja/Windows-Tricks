@@ -1,0 +1,115 @@
+
+How to lock folder on windows
+-------------------------------
+
+1. create a new folder for folder locker
+   i create a new folder on desktop for this operation
+
+2. create one txt file inside the the new folder and type below commands
+
+
+
+@ECHO OFF
+
+title Folder Locker
+
+if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" goto UNLOCK
+
+if NOT EXIST Locker goto MDLOCKER
+
+:CONFIRM
+
+echo Are you sure u want to Lock the folder(Y/N)
+
+set/p "cho=>"
+
+if %cho%==Y goto LOCK
+
+if %cho%==y goto LOCK
+
+if %cho%==n goto END
+
+if %cho%==N goto END
+
+echo Invalid choice.
+
+goto CONFIRM
+
+:LOCK
+
+ren Locker "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+
+attrib +h +s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+
+echo Folder locked
+
+goto End
+
+:UNLOCK
+
+echo Enter password to Unlock folder
+
+set/p "pass=>"
+
+if NOT %pass%==123456 goto FAIL
+
+attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+
+ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Locker
+
+echo Folder Unlocked successfully
+
+goto End
+
+:FAIL
+
+echo Invalid password
+
+goto end
+
+:MDLOCKER
+
+md Locker
+
+echo Locker created successfully
+
+goto End
+
+:End
+
+
+
+3. in this command section 123456 is the password if u want, you can set any password there  --- > if NOT %pass%==123456 goto FAIL
+
+
+4. then save this txt file as "Folder Locker.bat" ---- > make sure this file extension should be .bat only.
+
+5. Then there is one Folder Locker file present , you need to double click it and it produce one Locker folder there.
+
+6. Put all your data inside this locker folder and get back and  then double click on folder locker file  to lock the Locker folder
+
+7. it will prompt "Are you sure u want to Lock the folder(Y/N)" type y then enter, locker folder will be hidden and all ur data inside this locker.
+
+8. when u want to open the locker , go to new folder --> double click Folder locker --> Enter password to Unlock folder --> 123456 --> enter
+
+9. locker folder now visible u can get your data.
+
+
+------------------ in this u can create ur own locker in windows--------------------------------------
+
+What if someone delete this folder locker file to prevent this situation we need to make this file as Undeletable and unmovable
+
+
+
+10. open command prompt in same location of locker folder.bat and type below command to make this file undeletable 
+
+   cacls "Folder Locker.bat" /e /c /p everyone:n     
+
+   then hit enter then file will be undeletable and movable and unaccessible .
+
+   to make this file accessible follow below command
+   
+   cacls "Folder Locker.bat" /e /c /p everyone:f
+
+
+note: don't use shift delete it may delete your file
