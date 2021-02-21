@@ -1,0 +1,17 @@
+                         create a slide to shutdown button for windows
+                         ---------------------------------------------
+
+When shutdown comes in mind, there are more possible ways available. But today i mentioned one [slidetoshutdown] method below which gives a clean way to shutdown a pc.
+
+1. go to ur pc's desktop ---> right click --> new --> shortcut
+
+2. Then type there as --->    %windir%\System32\SlidetoShutDown.exe  --> then click on next --> type a name for this shortcut ---> finish.
+
+3. you able to see the shortcut on the desktop.
+
+4.You can set a logo for this shortcut after right click on this and go to properties and change logo.
+
+5. when you double click on this shortcut u find slide to shutdown interface. when u slide it ur laptop will shutdown immediately.
+
+
+--------------------------- END --------------------------------------------
