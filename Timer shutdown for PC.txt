@@ -1,0 +1,19 @@
+                    How to set timer for shutdown of pc
+                    -----------------------------------
+
+We can directly shutdown our pc by alt+f4 . But when we have requirement to shut down our pc within a time period.So how can we do that ?
+
+this document gives idea about " how to create a timer shutdown in windows"
+
+
+1. open your pc and right click over desktop.
+
+2. Then hit on "new" --> create shortcut ---> then type this command over there [shutdown -s -t 300] ---> next --> type the name of this shortcut--> finish
+
+3. that 300 actually seconds for the time u need to set.exp if u want to set it for 1hour u can give 3600 sec there.
+
+4. one shortcut is created on ur windows desktop
+
+5. when u double click on this shortcut it will warn u, how much time u have for the shutdown of this pc.
+
+----------------------------END--------------------------
