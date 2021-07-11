@@ -8,5 +8,6 @@
 6. Then right click on Shutdown Computer --> New --> key
 7. and write command on it
 8.Then double click on right side of Default field and set value as --> shutdown /s
+9. Then go to your desktop and right click u will be able to see one section for Shutdown Computer
 
 ---- then you are all set -------
